@@ -4,10 +4,15 @@ function RandomRed(){
 	return "rgb("+red+, 100, 100)";
 }
 
-app.style.backgroundColor = "Randomblue();
-}
-i++;
-}, 500);
+var i = 0;
+setInterval(()=>{
+	if(i%2==0){
+	app.style.backgroundColor = RandomRed();
+	} else {
+	app.style.backgroundColor = "Randomblue();
+	}
+	i++;
+  }, 500);
 
 //B
 function RandomBlue(){
