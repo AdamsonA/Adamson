@@ -9,7 +9,7 @@ setInterval(()=>{
 	if(i%2==0){
 	app.style.backgroundColor = RandomRed();
 	} else {
-	app.style.backgroundColor = "Randomblue();
+	app.style.backgroundColor = Randomblue();
 	}
 	i++;
   }, 500);
