@@ -4,11 +4,6 @@ function RandomRed(){
 	return "rgb("+red+, 100, 100)";
 }
 
-var i = 0;
-setInterval(()=>{
-if(i%2==0){
-app.style.backgroundColor = RandomRed();
-} else {
 app.style.backgroundColor = "Randomblue();
 }
 i++;
