@@ -6,7 +6,7 @@ function RandomRed(){
 
 var i = 0;
 setInterval(()=>{
-IF(I%2==0){
+if(i%2==0){
 app.style.backgroundColor = RandomRed();
 } else {
 app.style.backgroundColor = "Randomblue();
